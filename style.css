@@ -8,6 +8,7 @@ body{
 }
 
   li {
+    align-items: center;
     display: inline;
   }
   
@@ -40,6 +41,20 @@ body{
     margin: auto;
 }
 
+    figure.projects {
+    background-color: aliceblue;
+    padding: 5px;
+    width: 225px;
+    margin: 20px;
+    }
+
+    figure.aboutimage {
+        background-color: aliceblue;
+    padding: 5px;
+    width: 350px;
+    margin: 20px;
+    }
+
   figcaption{
      text-align: center;
 
@@ -57,10 +72,24 @@ body{
     border: 30px;
     padding: 30px;
     animation: fadeIn 3s;
-    width: 700px;
+    width: 795px;
     height: 300px;
     background-color: #FFFFFF;
   }
+  .containerProjects {
+    display: flex;
+    align-items: center;
+    flex-flow: wrap;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    border: 30px;
+    padding: 30px;
+    animation: fadeIn 3s;
+    width: 825;
+    background-color: #FFFFFF;
+}
 
   @keyframes fadeIn {
     0% { opacity: 0; }
